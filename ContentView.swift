@@ -38,8 +38,7 @@ struct ContentView: View {
                              Image(systemName: "trash")
                                 .foregroundColor(.gray)
                         }
-                        .buttonStyle(BorderlessButtonStyle())
-                    }
+                    }.buttonStyle(BorderlessButtonStyle())
                 }
                 
             }
